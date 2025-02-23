@@ -16,21 +16,20 @@ public class app2 {
             
         }
         System.out.println("donner le nombre de colonne");
-        nl=sc.nextInt();
+        nc=sc.nextInt();
         while (nc>30) {
             System.out.println("donner le nombre de colonne");
-        nl=sc.nextInt();
+        nc=sc.nextInt();
     }
-    System.out.println("remplire le matrice");
-    for ( i = 0; i < nc; i++) {
-        for ( j = 0; j < nl; j++) {
-                System.out.println("M["+i+","+j+"]=");
-            M[i][j]=sc.nextInt();
-            
-            } 
+        System.out.println("remplire le matrice");
 
-            
+        for ( i = 0; i < nl; i++) {
+            for (j = 0; j < nc; j++) {
+                System.out.println("M["+i+","+j+"]=");
+                M[i][j]=sc.nextInt();
+            }
         }
+
         for ( i = 0; i < nc; i++) {
             for ( j = 0; j < nl; j++) {
                  som=som+M[i][j];
@@ -41,7 +40,7 @@ public class app2 {
                 
             }
             System.out.println("la somme de tableau"+som);
-            System.out.println("la somme de tableau"+produit);
+            System.out.println("la produit de tableau"+produit);
 
         
     }
