@@ -1,4 +1,4 @@
-public  class chaine {
+public  class exemple {
     public static void main(String[]args){
         String ch1="coucou";
         String ch2= new String("c'est moi!/n");
