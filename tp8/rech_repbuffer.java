@@ -7,8 +7,6 @@ public class rech_repbuffer {
         String mot1,mot2,x;
         StringBuffer Texte;
         
-        int l,p;
-        //StringBuffer texte;
 
         System.out.println("donner un chaine de charactere");
         Texte=new StringBuffer(sc.nextLine());
